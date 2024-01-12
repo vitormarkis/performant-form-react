@@ -68,4 +68,13 @@ button {
   color: white;
   font-weight: 500;
   margin-top: 6px;
+  cursor: pointer;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.2, 0.8);
+  transition-duration: 150ms;
+}
+
+button:active {
+  background-color: hsl(200, 74%, 40%);
+  border: 1px solid hsl(200, 74%, 37%);
 }
